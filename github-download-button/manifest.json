@@ -3,7 +3,11 @@
   "name": "GitHub Releases Button",
   "version": "1.0",
   "description": "Adds an easily seen button to go to the Releases page on Github repos",
-
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "donnieyapp@gmail.com"
+    }
+  },
   "host_permissions": ["https://github.com/*"],
 
   "content_scripts": [
@@ -14,7 +18,7 @@
     }
   ],
   "icons": {
-    "48": "icons/icon48.png",
-    "96": "icons/icon96.png"
+    "48": "icons/icons48.png",
+    "96": "icons/icons96.png"
   }
 }
