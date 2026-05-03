@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Releases Button",
+  "version": "1.0",
+  "description": "Adds an easily seen button to go to the Releases page on Github repos",
+
+  "permissions": ["activeTab"],
+
+  "content_scripts": [
+    {
+      "matches": ["*://github.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
